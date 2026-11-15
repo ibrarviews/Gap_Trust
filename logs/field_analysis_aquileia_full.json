@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-09T06:13:09+00:00",
+  "constants": {
+    "V": 0.1,
+    "F_GHz": 0.25,
+    "DX": 0.05,
+    "R_FAIL": 0.5,
+    "G_MAX": 1.7,
+    "T_WIN_NS": [
+      10.0,
+      60.0
+    ],
+    "GUARD_TRACES": 10
+  },
+  "lines": {
+    "aquileia_A": {
+      "file": "PROF3.SGY",
+      "ns": 256,
+      "dt_ns": 0.471,
+      "ntraces": 635,
+      "format_code": 1,
+      "target_x_m": 2.3,
+      "target_z_m": 0.62,
+      "reference_amp": 15276467.527406994,
+      "D_m": 0.7321,
+      "time_zero_ns": 1.884,
+      "n_gap_widths": 12,
+      "W50_m": {
+        "zero": 0.45,
+        "linear": 0.95,
+        "pocs": null
+      },
+      "G50": {
+        "zero": 0.6147,
+        "linear": 1.2976,
+        "pocs": null
+      },
+      "spearman_R_vs_gap": {
+        "zero": -1.0,
+        "linear": -0.951,
+        "pocs": 0.881
+      }
+    },
+    "aquileia_B": {
+      "file": "PROF10.sgy",
+      "ns": 256,
+      "dt_ns": 0.471,
+      "ntraces": 602,
+      "format_code": 1,
+      "target_x_m": 19.35,
+      "target_z_m": 0.65,
+      "reference_amp": 13030168.364577271,
+      "D_m": 0.7483,
+      "time_zero_ns": 1.884,
+      "n_gap_widths": 13,
+      "W50_m": {
+        "zero": 0.35,
+        "linear": 0.55,
+        "pocs": null
+      },
+      "G50": {
+        "zero": 0.4677,
+        "linear": 0.735,
+        "pocs": null
+      },
+      "spearman_R_vs_gap": {
+        "zero": -0.995,
+        "linear": -0.703,
+        "pocs": 0.94
+      }
+    },
+    "aquileia_C": {
+      "file": "prof10.sgy",
+      "ns": 512,
+      "dt_ns": 0.398,
+      "ntraces": 1116,
+      "format_code": 1,
+      "target_x_m": 18.4,
+      "target_z_m": 0.66,
+      "reference_amp": 9412236.1901922,
+      "D_m": 0.7537,
+      "time_zero_ns": 9.552,
+      "n_gap_widths": 13,
+      "W50_m": {
+        "zero": 0.35,
+        "linear": 0.65,
+        "pocs": null
+      },
+      "G50": {
+        "zero": 0.4644,
+        "linear": 0.8625,
+        "pocs": null
+      },
+      "spearman_R_vs_gap": {
+        "zero": -0.78,
+        "linear": -0.632,
+        "pocs": 0.863
+      }
+    }
+  },
+  "predictions": {
+    "P3_any_profile_reaches_W50": true,
+    "P4_zero_fails_before_linear": true
+  }
+}

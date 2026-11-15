@@ -1,0 +1,12 @@
+{
+  "figure": "FigS1_pilot_curves",
+  "script": "scripts/figS1_pilot_curves.py",
+  "input": "results/data/pilot_R.csv",
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-06T10:25:54+00:00",
+  "R_fail": 0.5,
+  "outputs": [
+    "Figures/supplementary/FigS1_pilot_curves.pdf",
+    "Figures/supplementary/FigS1_pilot_curves.tif"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "figure": "FigS4_full_curves_recovered",
+  "script": "scripts/figS4_full_curves_recovered.py",
+  "status": "rebuilt from the recovered full-set analysis; original script absent",
+  "input": "results\\data\\full_R_recovered.csv",
+  "input_sha256": "3e447ac3de170868194ad586206436871056b17ce4b7e5a026d788a1335d8546",
+  "input_rows": 2952,
+  "panels": [
+    {
+      "panel": "a",
+      "method": "linear",
+      "radius_m": 0.15
+    },
+    {
+      "panel": "b",
+      "method": "linear",
+      "radius_m": 0.4
+    },
+    {
+      "panel": "c",
+      "method": "pocs",
+      "radius_m": 0.15
+    },
+    {
+      "panel": "d",
+      "method": "pocs",
+      "radius_m": 0.4
+    }
+  ],
+  "curves_per_panel": 12,
+  "G_max_in_data": 3.7718,
+  "R_fail": 0.5,
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-08T11:38:14+00:00",
+  "outputs": [
+    "Figures\\supplementary\\FigS4_full_curves_recovered.pdf",
+    "Figures\\supplementary\\FigS4_full_curves_recovered.tif"
+  ]
+}

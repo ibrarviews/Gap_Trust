@@ -1,0 +1,89 @@
+{
+  "great_l14": {
+    "file": "PROJECT700__001.DZT",
+    "shape_traces_samples": [
+      9799,
+      1023
+    ],
+    "amp_min": -5826240.0,
+    "amp_max": 5403968.0,
+    "median_adjacent_correlation": 0.9999611757491553,
+    "antenna": [
+      "50400S",
+      null,
+      null,
+      null
+    ],
+    "antfreq": [
+      400,
+      null,
+      null,
+      null
+    ],
+    "samples_per_trace": 1024,
+    "bits": 32,
+    "time_range_ns": 110.86392974853516,
+    "spt_ns": null,
+    "spm": 0.0,
+    "sps": 305.0,
+    "dielectric": null
+  },
+  "small_l6": {
+    "file": "PROJECD000__001.DZT",
+    "shape_traces_samples": [
+      16189,
+      1023
+    ],
+    "amp_min": -5507712.0,
+    "amp_max": 5368896.0,
+    "median_adjacent_correlation": 0.9999670969082826,
+    "antenna": [
+      "50400S",
+      null,
+      null,
+      null
+    ],
+    "antfreq": [
+      400,
+      null,
+      null,
+      null
+    ],
+    "samples_per_trace": 1024,
+    "bits": 32,
+    "time_range_ns": 110.86392974853516,
+    "spt_ns": null,
+    "spm": 0.0,
+    "sps": 305.0,
+    "dielectric": null
+  },
+  "dugout_l2": {
+    "file": "PROJECG000__001.DZT",
+    "shape_traces_samples": [
+      14193,
+      1023
+    ],
+    "amp_min": -5747712.0,
+    "amp_max": 5389952.0,
+    "median_adjacent_correlation": 0.9999668460419759,
+    "antenna": [
+      "50400S",
+      null,
+      null,
+      null
+    ],
+    "antfreq": [
+      400,
+      null,
+      null,
+      null
+    ],
+    "samples_per_trace": 1024,
+    "bits": 32,
+    "time_range_ns": 110.86392974853516,
+    "spt_ns": null,
+    "spm": 0.0,
+    "sps": 305.0,
+    "dielectric": null
+  }
+}

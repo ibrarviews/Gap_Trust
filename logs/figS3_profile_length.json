@@ -1,0 +1,11 @@
+{
+  "figure": "FigS3_profile_length",
+  "script": "scripts/figS3_profile_length.py",
+  "input": "results/data/test_profile_length.csv",
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-06T11:55:04+00:00",
+  "outputs": [
+    "Figures/supplementary/FigS3_profile_length.pdf",
+    "Figures/supplementary/FigS3_profile_length.tif"
+  ]
+}

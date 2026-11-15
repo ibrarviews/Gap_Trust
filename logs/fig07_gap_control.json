@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-09T06:28:21+00:00",
+  "csv": "results\\data\\field_R_offtarget.csv",
+  "predictions": {
+    "P5": true,
+    "P5_detail": {
+      "great_l14": {
+        "R_on": 0.4746,
+        "R_off_1m": [
+          0.993
+        ],
+        "ok": true
+      },
+      "small_l6": {
+        "R_on": 0.5008,
+        "R_off_1m": [
+          1.003,
+          1.0123
+        ],
+        "ok": true
+      },
+      "dugout_l2": {
+        "R_on": 0.4674,
+        "R_off_1m": [
+          1.0198
+        ],
+        "ok": true
+      },
+      "aquileia_A": {
+        "R_on": 0.4552,
+        "R_off_1m": [
+          1.0004,
+          1.0016
+        ],
+        "ok": true
+      },
+      "aquileia_B": {
+        "R_on": 0.3579,
+        "R_off_1m": [
+          1.0006,
+          0.9999
+        ],
+        "ok": true
+      },
+      "aquileia_C": {
+        "R_on": 0.4908,
+        "R_off_1m": [
+          0.9985,
+          0.9979
+        ],
+        "ok": true
+      }
+    },
+    "P6": false,
+    "P6_mean_1m": 1.0027,
+    "P6_mean_2m": 1.000588888888889,
+    "P7": true
+  },
+  "outputs": [
+    "E:\\Gap trust\\Figures\\main\\Fig07_gap_control.pdf",
+    "E:\\Gap trust\\Figures\\main\\Fig07_gap_control.tif"
+  ],
+  "caption": "Off-target gap control. (a) Great cave line 14 with the target box and the band removed in the control, 1.5 m to the side. (b), (c) Recovery ratio R against the offset of a gap of the same width as the W50 of each profile, for zero fill and linear interpolation; the value at zero offset is the W50 crossing of Fig. 6. Aperture loss at the target is what drives the failure, since an equal gap away from it leaves R near unity."
+}

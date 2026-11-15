@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-09T07:17:23.717125Z",
+  "task": "manuscript Word build",
+  "outputs": {
+    "E:\\Gap trust\\Manuscript_GapTrust_main.docx": 4925954,
+    "E:\\Gap trust\\Manuscript_GapTrust_supplementary.docx": 2559993
+  },
+  "main": {
+    "figures": [
+      "Fig01_concept",
+      "Fig02_models",
+      "Fig03_failure_vs_width",
+      "Fig04_failure_vs_gap_number",
+      "Fig05_hidden_void",
+      "Fig06_field_validation",
+      "Fig07_gap_control"
+    ],
+    "tables": 5,
+    "equations": 22,
+    "references": "omitted by researcher instruction"
+  },
+  "supplementary": {
+    "figures": [
+      "FigS1_pilot_curves",
+      "FigS2_size_test",
+      "FigS3_profile_length",
+      "FigS4_full_curves",
+      "FigS5_failure_scatter",
+      "FigS6_rlam_scatter"
+    ]
+  },
+  "engine": "python-docx 1.2.0, anaconda3/envs/gprmax python 3.10.20",
+  "figure_source": "600 dpi LZW TIFF converted to PNG in %TEMP% for embedding; original TIFF untouched",
+  "scripts": "E:\\Gap trust\\Codes\\scripts\\manuscript_build"
+}

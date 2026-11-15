@@ -1,0 +1,63 @@
+{
+  "figure": "FigS5_failure_scatter_recovered",
+  "script": "scripts/figS5_failure_scatter_recovered.py",
+  "status": "rebuilt from the recovered full-set analysis; original script absent",
+  "inputs": {
+    "results\\data\\full_R_recovered.csv": "3e447ac3de170868194ad586206436871056b17ce4b7e5a026d788a1335d8546",
+    "results\\data\\failure_points_recovered.csv": "2b436784e43618db0e13e7eb493b24c782df9fd593a7e7a2fca09635b9dfd5ad"
+  },
+  "R_fail": 0.5,
+  "cross_check": "recomputed W50/G50 agree with failure_points_recovered.csv, 0 mismatches",
+  "normalisation": {
+    "r0.15": {
+      "n_uncensored": 36,
+      "mean_W50": 1.1266666666666667,
+      "mean_G50": 1.103205555555555,
+      "cv": {
+        "zero": {
+          "CV_W50": 0.338423140008383,
+          "CV_G50": 0.2121224126952788,
+          "n": 12
+        },
+        "linear": {
+          "CV_W50": 0.30269430226831795,
+          "CV_G50": 0.21622643232592537,
+          "n": 12
+        },
+        "pocs": {
+          "CV_W50": 0.3102867742745525,
+          "CV_G50": 0.26406974794672733,
+          "n": 12
+        }
+      }
+    },
+    "r0.40": {
+      "n_uncensored": 30,
+      "mean_W50": 1.2339999999999993,
+      "mean_G50": 1.2761600000000002,
+      "cv": {
+        "zero": {
+          "CV_W50": 0.23350253807106597,
+          "CV_G50": 0.17122849397640927,
+          "n": 10
+        },
+        "linear": {
+          "CV_W50": 0.1914004224314226,
+          "CV_G50": 0.11709594279387547,
+          "n": 10
+        },
+        "pocs": {
+          "CV_W50": 0.2353959094647275,
+          "CV_G50": 0.16884760838163576,
+          "n": 10
+        }
+      }
+    }
+  },
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-08T11:36:11+00:00",
+  "outputs": [
+    "Figures\\supplementary\\FigS5_failure_scatter_recovered.pdf",
+    "Figures\\supplementary\\FigS5_failure_scatter_recovered.tif"
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "figure": "E:\\Gap trust\\Figures\\main\\Fig05_hidden_void.pdf",
+  "tiff": "E:\\Gap trust\\Figures\\main\\Fig05_hidden_void.tif",
+  "script": "E:\\Gap trust\\Codes\\scripts\\fig05_hidden_void.py",
+  "case": {
+    "model": "d0p75_r0p40_air",
+    "freq": "250MHz",
+    "roof_m": 0.75,
+    "radius_m": 0.4,
+    "fill": "air",
+    "time_zero_samples": 5,
+    "trace_spacing_m": 0.03,
+    "ntraces": 134,
+    "gap_traces": 35,
+    "gap_m": 1.05,
+    "gap_edges_m": [
+      1.685,
+      2.7350000000000003
+    ],
+    "target_x_m": 2.18,
+    "target_z_m": 0.8400000000000005,
+    "ref": 2161.5186264829495,
+    "D_m": 0.8251933106854418,
+    "G_at_width": 1.272429122247518
+  },
+  "R_at_width": {
+    "zero": 0.4841734408413522,
+    "linear": 0.5491162122714436,
+    "pocs": 0.458168014598124
+  },
+  "display_vmax": 0.55,
+  "cross_check": {
+    "file": "E:\\Gap trust\\Codes\\results\\data\\full_R_recovered.csv",
+    "sha256": "3e447ac3de170868194ad586206436871056b17ce4b7e5a026d788a1335d8546",
+    "gap_traces": 35,
+    "mismatches": 0,
+    "tolerance": 0.0001
+  },
+  "series_at_G1": [
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.4555442916093535
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.47730178817056396
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.4233312242090784
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.4748474552957359
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6358877579092159
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.46729050894085283
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.6718584594222834
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.6272686382393398
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.5780004126547456
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.6459382393397525
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.5619591471801926
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.6000510316368638
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.5997
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.6109436781609194
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.5439902298850575
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.5053344827586207
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6496045977011493
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.5205816091954023
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.7928701149425289
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.6034011494252874
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.5096620689655172
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.6026925287356323
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.5072155172413794
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.4130511494252874
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.5132579852579853
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.5259690417690418
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.5565041769041769
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.43064570024570026
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.7633931203931204
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.4905285012285012
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.5521280098280098
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.674229484029484
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.5493744471744472
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.5390616707616708
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.5948830466830467
+    },
+    {
+      "freq": "250MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.5386550368550369
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.46115209452201933
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.4236404940923738
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.3905139634801289
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.418825134264232
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6102219119226638
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.41359624060150374
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.6518259935553168
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.6427068743286788
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.6370943071965628
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.6542152524167562
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6820914070891514
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 0.75,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.6585771213748657
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.7476358858858859
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.7617490990990992
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.7369792792792793
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.7414668168168168
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.7144087087087087
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.720022972972973
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.8544375375375375
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.5757885885885886
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.609612912912913
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.7196893393393393
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.557545045045045
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 1.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.5004190690690691
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.44134594594594595
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.3940810810810811
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.43073513513513517
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.4055297297297298
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6213243243243243
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.15,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.41562162162162164
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear",
+      "R_at_G1": 0.651527027027027
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs",
+      "R_at_G1": 0.7677837837837838
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "zero",
+      "R_at_G1": 0.6726648648648649
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear",
+      "R_at_G1": 0.6116432432432433
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs",
+      "R_at_G1": 0.6557297297297298
+    },
+    {
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "zero",
+      "R_at_G1": 0.6633783783783784
+    }
+  ],
+  "n_series": 72,
+  "n_below_R_fail": 18,
+  "prediction_as_registered": "at least 60 of 72 below R = 0.5",
+  "prediction_met": false,
+  "R_summary": {
+    "min": 0.3905139634801289,
+    "max": 0.8544375375375375,
+    "median": 0.5972915233415234
+  },
+  "frozen": {
+    "V_MIG": 0.106,
+    "R_FAIL": 0.5,
+    "box_m": [
+      0.25,
+      0.15
+    ],
+    "methods": [
+      "zero",
+      "linear",
+      "pocs"
+    ]
+  },
+  "environment": {
+    "python": "3.10.20",
+    "interpreter": "C:\\Users\\IBRAR IQBAL\\anaconda3\\envs\\gprmax\\python.exe",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9",
+    "pillow": "12.2.0",
+    "scipy": "1.15.3",
+    "gaptrust": "0.1.0",
+    "utc": "2026-11-09T02:58:19+00:00"
+  },
+  "utc": "2026-11-09T02:58:19+00:00",
+  "outputs": {
+    "E:\\Gap trust\\Figures\\main\\Fig05_hidden_void.pdf": {
+      "bytes": 134159,
+      "sha256": "80c799c0b0ee2dd8dda668a9a959b6170e221c907c3eaff3804805c6c9030171"
+    },
+    "E:\\Gap trust\\Figures\\main\\Fig05_hidden_void.tif": {
+      "bytes": 3721056,
+      "sha256": "beae3084dfaf9233c9d573fbbee45ac9903b5c871dd9377659380fac9b95ea27"
+    }
+  }
+}

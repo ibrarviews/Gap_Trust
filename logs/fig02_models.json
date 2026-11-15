@@ -1,0 +1,140 @@
+{
+  "figure": "Fig02_models",
+  "script": "scripts/fig02_models.py",
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-06T08:03:21+00:00",
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "matplotlib": "3.11.2",
+  "host": {
+    "host": {
+      "width_m": 4.4,
+      "depth_m": 3.6,
+      "air_m": 0.3,
+      "soil_thickness_m": 0.4,
+      "interface_amp_m": 0.1,
+      "interface_wavelength_m": 1.6,
+      "corr_length_m": 0.2,
+      "n_eps_bins": 9,
+      "seed": 20261106
+    },
+    "materials": [
+      [
+        "soil",
+        12.0,
+        0.01
+      ],
+      [
+        "limestone0",
+        6.4,
+        0.002
+      ],
+      [
+        "limestone1",
+        6.800000000000001,
+        0.002
+      ],
+      [
+        "limestone2",
+        7.2,
+        0.002
+      ],
+      [
+        "limestone3",
+        7.6,
+        0.002
+      ],
+      [
+        "limestone4",
+        8.0,
+        0.002
+      ],
+      [
+        "limestone5",
+        8.4,
+        0.002
+      ],
+      [
+        "limestone6",
+        8.8,
+        0.002
+      ],
+      [
+        "limestone7",
+        9.2,
+        0.002
+      ],
+      [
+        "limestone8",
+        9.6,
+        0.002
+      ],
+      [
+        "void_air",
+        1.0,
+        0.0
+      ],
+      [
+        "void_clay",
+        25.0,
+        0.05
+      ]
+    ]
+  },
+  "simulations": {
+    "400MHz": {
+      "frequency_GHz": 0.4,
+      "dx_m": 0.006,
+      "time_window_ns": 80.0,
+      "trace_spacing_m": 0.03,
+      "profile_start_m": 0.2,
+      "profile_end_m": 4.2,
+      "antenna_offset_m": 0.1,
+      "antenna_height_m": 0.02
+    },
+    "250MHz": {
+      "frequency_GHz": 0.25,
+      "dx_m": 0.01,
+      "time_window_ns": 110.0,
+      "trace_spacing_m": 0.03,
+      "profile_start_m": 0.2,
+      "profile_end_m": 4.2,
+      "antenna_offset_m": 0.1,
+      "antenna_height_m": 0.02
+    }
+  },
+  "void_depths_m": [
+    0.75,
+    1.5,
+    2.5
+  ],
+  "void_radii_m": [
+    0.15,
+    0.4
+  ],
+  "void_fills": {
+    "air": [
+      1.0,
+      0.0
+    ],
+    "clay": [
+      25.0,
+      0.05
+    ]
+  },
+  "n_models_per_frequency": 13,
+  "example_void": {
+    "roof_depth_m": 1.5,
+    "radius_m": 0.4,
+    "fill": "clay",
+    "x_m": 2.2
+  },
+  "limestone_eps_stats_below_0p6m": {
+    "mean": 7.993830286493861,
+    "std": 0.7481184566777392
+  },
+  "outputs": [
+    "Figures/main/Fig02_models.pdf",
+    "Figures/main/Fig02_models.tif"
+  ]
+}

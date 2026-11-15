@@ -1,0 +1,15 @@
+{
+  "figure": "FigS2_size_test",
+  "script": "scripts/figS2_size_test.py",
+  "inputs": [
+    "results/data/pilot_R.csv",
+    "results/data/test_size_R.csv"
+  ],
+  "frequency": "250MHz",
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-06T11:55:03+00:00",
+  "outputs": [
+    "Figures/supplementary/FigS2_size_test.pdf",
+    "Figures/supplementary/FigS2_size_test.tif"
+  ]
+}

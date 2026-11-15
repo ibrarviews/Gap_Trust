@@ -1,0 +1,26 @@
+[
+  {
+    "from": "FigS4_full_curves_recovered.pdf",
+    "to": "FigS4_full_curves.pdf",
+    "bytes": 58843,
+    "sha256": "6D5483AB8A615FC5E4E1E507D1CFA19ED6F5E2F0BE7075966036CDDFE60743B0"
+  },
+  {
+    "from": "FigS4_full_curves_recovered.tif",
+    "to": "FigS4_full_curves.tif",
+    "bytes": 1248666,
+    "sha256": "49ACC6D22BC791ECDC046EE2C6E78F9DAF27800AA7ECC0978D7B7E48AFC96737"
+  },
+  {
+    "from": "FigS5_failure_scatter_recovered.pdf",
+    "to": "FigS5_failure_scatter.pdf",
+    "bytes": 44902,
+    "sha256": "0667D98E6125DD7DC4205201FE2A8345995C19A1955306B81C7BECB46417C3CD"
+  },
+  {
+    "from": "FigS5_failure_scatter_recovered.tif",
+    "to": "FigS5_failure_scatter.tif",
+    "bytes": 479818,
+    "sha256": "685024735EE024736278E937E7C452EA1DA69EE040EDEDF43129008571A1EE99"
+  }
+]

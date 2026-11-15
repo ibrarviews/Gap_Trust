@@ -1,0 +1,60 @@
+{
+  "utc": "2026-11-09T06:27:28+00:00",
+  "csv": [
+    "results\\data\\field_R_guarded.csv",
+    "results\\data\\field_R_aquileia_full.csv"
+  ],
+  "targets": {
+    "karst": {
+      "great_l14": {
+        "x": 1.65,
+        "z": 0.72,
+        "D": 0.5746,
+        "W50": 0.45,
+        "G50": 0.7831
+      },
+      "small_l6": {
+        "x": 3.55,
+        "z": 0.65,
+        "D": 0.4791,
+        "W50": 0.55,
+        "G50": 1.1479
+      },
+      "dugout_l2": {
+        "x": 6.6,
+        "z": 0.68,
+        "D": 0.5715,
+        "W50": 0.45,
+        "G50": 0.7873
+      }
+    },
+    "aqu": {
+      "aquileia_A": {
+        "x": 2.3,
+        "z": 0.62,
+        "D": 0.7321,
+        "W50": 0.45,
+        "G50": 0.6147
+      },
+      "aquileia_B": {
+        "x": 19.35,
+        "z": 0.65,
+        "D": 0.7483,
+        "W50": 0.35,
+        "G50": 0.4677
+      },
+      "aquileia_C": {
+        "x": 18.4,
+        "z": 0.66,
+        "D": 0.7537,
+        "W50": 0.35,
+        "G50": 0.4644
+      }
+    }
+  },
+  "outputs": [
+    "E:\\Gap trust\\Figures\\main\\Fig06_field_validation.pdf",
+    "E:\\Gap trust\\Figures\\main\\Fig06_field_validation.tif"
+  ],
+  "caption": "Field validation of GapTrust on six measured profiles. (a)-(c) Karst lines of the Guilin sites, 400 MHz antenna; (d)-(f) Aquileia profiles, 250 MHz (Zhao et al., 2013). Boxes mark the target (+/-0.25 m, +/-0.15 m), arrows the gap width at W50; display gain only. (g)-(i) Recovery ratio R versus gap number G for zero fill, linear interpolation and POCS; dashed line R = 0.5, shaded band the G50 range of the models (0.70-1.70), open symbols the G50 of each method. POCS raises R above unity, so panels are annotated rather than rescaled."
+}

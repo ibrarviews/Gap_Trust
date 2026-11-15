@@ -1,0 +1,243 @@
+{
+ "utc": "2026-11-09T06:48:24.059385+00:00",
+ "script": "scripts/field_control_summarise.py",
+ "on_target_value_source": "frozen tables, not recomputed",
+ "constants": {
+  "DX": 0.05,
+  "R_FAIL": 0.5,
+  "DELTA_MIN": 0.15
+ },
+ "on_target": {
+  "aquileia_A|linear": {
+   "W50": 0.95,
+   "n": 19,
+   "R": 0.4694,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "aquileia_A|zero": {
+   "W50": 0.45,
+   "n": 9,
+   "R": 0.467,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "aquileia_B|linear": {
+   "W50": 0.55,
+   "n": 11,
+   "R": 0.444,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "aquileia_B|zero": {
+   "W50": 0.35,
+   "n": 7,
+   "R": 0.3579,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "aquileia_C|linear": {
+   "W50": 0.65,
+   "n": 13,
+   "R": 0.4623,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "aquileia_C|zero": {
+   "W50": 0.35,
+   "n": 7,
+   "R": 0.4908,
+   "source": "field_R_aquileia_full.csv"
+  },
+  "dugout_l2|zero": {
+   "W50": 0.45,
+   "n": 9,
+   "R": 0.4674,
+   "source": "field_R_guarded.csv"
+  },
+  "great_l14|linear": {
+   "W50": 0.95,
+   "n": 19,
+   "R": 0.4453,
+   "source": "field_R_guarded.csv"
+  },
+  "great_l14|zero": {
+   "W50": 0.45,
+   "n": 9,
+   "R": 0.4746,
+   "source": "field_R_guarded.csv"
+  },
+  "small_l6|zero": {
+   "W50": 0.55,
+   "n": 11,
+   "R": 0.482,
+   "source": "field_R_guarded.csv"
+  }
+ },
+ "checks": {
+  "zero": [
+   {
+    "line": "aquileia_A",
+    "R_on_table": 0.467,
+    "R_at_1m": [
+     1.0016,
+     1.0004
+    ],
+    "min_R_at_1m": 1.0004,
+    "delta_min": 0.5333999999999999,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "aquileia_B",
+    "R_on_table": 0.3579,
+    "R_at_1m": [
+     0.9999,
+     1.0006
+    ],
+    "min_R_at_1m": 0.9999,
+    "delta_min": 0.642,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "aquileia_C",
+    "R_on_table": 0.4908,
+    "R_at_1m": [
+     0.9979,
+     0.9985
+    ],
+    "min_R_at_1m": 0.9979,
+    "delta_min": 0.5071,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "dugout_l2",
+    "R_on_table": 0.4674,
+    "R_at_1m": [
+     1.0198
+    ],
+    "min_R_at_1m": 1.0198,
+    "delta_min": 0.5524,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "great_l14",
+    "R_on_table": 0.4746,
+    "R_at_1m": [
+     0.993
+    ],
+    "min_R_at_1m": 0.993,
+    "delta_min": 0.5184,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "small_l6",
+    "R_on_table": 0.482,
+    "R_at_1m": [
+     1.0123,
+     1.003
+    ],
+    "min_R_at_1m": 1.003,
+    "delta_min": 0.5209999999999999,
+    "passes_min_R": true,
+    "passes_delta": true
+   }
+  ],
+  "linear": [
+   {
+    "line": "aquileia_A",
+    "R_on_table": 0.4694,
+    "R_at_1m": [
+     1.0019,
+     1.0002
+    ],
+    "min_R_at_1m": 1.0002,
+    "delta_min": 0.5307999999999999,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "aquileia_B",
+    "R_on_table": 0.444,
+    "R_at_1m": [
+     1.0,
+     0.9999
+    ],
+    "min_R_at_1m": 0.9999,
+    "delta_min": 0.5559000000000001,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "aquileia_C",
+    "R_on_table": 0.4623,
+    "R_at_1m": [
+     0.998,
+     0.9997
+    ],
+    "min_R_at_1m": 0.998,
+    "delta_min": 0.5357000000000001,
+    "passes_min_R": true,
+    "passes_delta": true
+   },
+   {
+    "line": "great_l14",
+    "R_on_table": 0.4453,
+    "R_at_1m": [
+     0.9933
+    ],
+    "min_R_at_1m": 0.9933,
+    "delta_min": 0.548,
+    "passes_min_R": true,
+    "passes_delta": true
+   }
+  ]
+ },
+ "pooled": {
+  "zero": {
+   "1.0": {
+    "mean": 1.00094,
+    "n": 5,
+    "min": 0.993,
+    "max": 1.0123
+   },
+   "2.0": {
+    "mean": 0.99892,
+    "n": 5,
+    "min": 0.9954,
+    "max": 1.0014
+   }
+  },
+  "linear": {
+   "1.0": {
+    "mean": 1.0023000000000002,
+    "n": 5,
+    "min": 0.9933,
+    "max": 1.0183
+   },
+   "2.0": {
+    "mean": 1.0013999999999998,
+    "n": 5,
+    "min": 0.9955,
+    "max": 1.0126
+   }
+  }
+ },
+ "predictions": {
+  "P5": {
+   "rule": "at |offset| = 1.0 m zero fill keeps R >= 0.5 on every profile and exceeds the on-target value by at least 0.15",
+   "met": true
+  },
+  "P6": {
+   "rule": "profile-mean R rises from 1.0 m to 2.0 m",
+   "mean_1m": 1.00094,
+   "mean_2m": 0.99892,
+   "met": false
+  },
+  "P7": {
+   "rule": "linear fill keeps R >= 0.5 at 1.0 m on every profile",
+   "met": true
+  }
+ },
+ "numpy": "2.3.5",
+ "python": "3.13.9"
+}

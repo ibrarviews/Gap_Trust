@@ -1,0 +1,271 @@
+{
+  "utc": "2026-11-09T06:24:14+00:00",
+  "constants": {
+    "DX": 0.05,
+    "R_FAIL": 0.5,
+    "GUARD_TRACES": 10,
+    "OFFSETS": [
+      1.0,
+      1.5,
+      2.0
+    ],
+    "METHODS": [
+      "zero",
+      "linear"
+    ],
+    "KARST": {
+      "V": 0.106,
+      "DX": 0.05,
+      "L": 8.0,
+      "DT": 0.10837138782848012
+    },
+    "AQU": {
+      "V": 0.1,
+      "DX": 0.05
+    }
+  },
+  "inputs": [
+    "results\\data\\field_R_offtarget.csv"
+  ],
+  "R_on_check": [
+    {
+      "line": "great_l14",
+      "method": "zero",
+      "gap_traces": 9,
+      "R_on_here": 0.4746,
+      "R_on_table": 0.4746
+    },
+    {
+      "line": "great_l14",
+      "method": "linear",
+      "gap_traces": 9,
+      "R_on_here": 0.6948,
+      "R_on_table": 0.7837
+    },
+    {
+      "line": "small_l6",
+      "method": "zero",
+      "gap_traces": 11,
+      "R_on_here": 0.5008,
+      "R_on_table": 0.482
+    },
+    {
+      "line": "small_l6",
+      "method": "linear",
+      "gap_traces": 11,
+      "R_on_here": 0.9962,
+      "R_on_table": 0.9588
+    },
+    {
+      "line": "dugout_l2",
+      "method": "zero",
+      "gap_traces": 9,
+      "R_on_here": 0.4674,
+      "R_on_table": 0.4674
+    },
+    {
+      "line": "dugout_l2",
+      "method": "linear",
+      "gap_traces": 9,
+      "R_on_here": 0.8053,
+      "R_on_table": 0.8053
+    },
+    {
+      "line": "aquileia_A",
+      "method": "zero",
+      "gap_traces": 9,
+      "R_on_here": 0.4552,
+      "R_on_table": 0.467
+    },
+    {
+      "line": "aquileia_A",
+      "method": "linear",
+      "gap_traces": 9,
+      "R_on_here": 0.6991,
+      "R_on_table": 0.7229
+    },
+    {
+      "line": "aquileia_B",
+      "method": "zero",
+      "gap_traces": 7,
+      "R_on_here": 0.3579,
+      "R_on_table": 0.3579
+    },
+    {
+      "line": "aquileia_B",
+      "method": "linear",
+      "gap_traces": 7,
+      "R_on_here": 0.8485,
+      "R_on_table": 0.8485
+    },
+    {
+      "line": "aquileia_C",
+      "method": "zero",
+      "gap_traces": 7,
+      "R_on_here": 0.4908,
+      "R_on_table": 0.4908
+    },
+    {
+      "line": "aquileia_C",
+      "method": "linear",
+      "gap_traces": 7,
+      "R_on_here": 0.7728,
+      "R_on_table": 0.7728
+    }
+  ],
+  "skips": [
+    {
+      "line": "great_l14",
+      "method": "zero",
+      "offset_m": -1.0,
+      "trace": 13,
+      "reason": "end guard"
+    },
+    {
+      "line": "great_l14",
+      "method": "zero",
+      "offset_m": -1.5,
+      "trace": 3,
+      "reason": "end guard"
+    },
+    {
+      "line": "great_l14",
+      "method": "zero",
+      "offset_m": -2.0,
+      "trace": -7,
+      "reason": "end guard"
+    },
+    {
+      "line": "great_l14",
+      "method": "linear",
+      "offset_m": -1.0,
+      "trace": 13,
+      "reason": "end guard"
+    },
+    {
+      "line": "great_l14",
+      "method": "linear",
+      "offset_m": -1.5,
+      "trace": 3,
+      "reason": "end guard"
+    },
+    {
+      "line": "great_l14",
+      "method": "linear",
+      "offset_m": -2.0,
+      "trace": -7,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "zero",
+      "offset_m": 1.0,
+      "trace": 152,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "zero",
+      "offset_m": 1.5,
+      "trace": 162,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "zero",
+      "offset_m": 2.0,
+      "trace": 172,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "linear",
+      "offset_m": 1.0,
+      "trace": 152,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "linear",
+      "offset_m": 1.5,
+      "trace": 162,
+      "reason": "end guard"
+    },
+    {
+      "line": "dugout_l2",
+      "method": "linear",
+      "offset_m": 2.0,
+      "trace": 172,
+      "reason": "end guard"
+    },
+    {
+      "line": "aquileia_A",
+      "method": "zero",
+      "offset_m": -2.0,
+      "trace": 6,
+      "reason": "end guard"
+    },
+    {
+      "line": "aquileia_A",
+      "method": "linear",
+      "offset_m": -2.0,
+      "trace": 6,
+      "reason": "end guard"
+    }
+  ],
+  "predictions": {
+    "P5": true,
+    "P5_detail": {
+      "great_l14": {
+        "R_on": 0.4746,
+        "R_off_1m": [
+          0.993
+        ],
+        "ok": true
+      },
+      "small_l6": {
+        "R_on": 0.5008,
+        "R_off_1m": [
+          1.003,
+          1.0123
+        ],
+        "ok": true
+      },
+      "dugout_l2": {
+        "R_on": 0.4674,
+        "R_off_1m": [
+          1.0198
+        ],
+        "ok": true
+      },
+      "aquileia_A": {
+        "R_on": 0.4552,
+        "R_off_1m": [
+          1.0004,
+          1.0016
+        ],
+        "ok": true
+      },
+      "aquileia_B": {
+        "R_on": 0.3579,
+        "R_off_1m": [
+          1.0006,
+          0.9999
+        ],
+        "ok": true
+      },
+      "aquileia_C": {
+        "R_on": 0.4908,
+        "R_off_1m": [
+          0.9985,
+          0.9979
+        ],
+        "ok": true
+      }
+    },
+    "P6": false,
+    "P6_mean_1m": 1.0027,
+    "P6_mean_2m": 1.000588888888889,
+    "P7": true
+  }
+}

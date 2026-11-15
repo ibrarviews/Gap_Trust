@@ -1,0 +1,144 @@
+dataset,site,project,file,bytes,ns,ntraces,dt,geometry_status,dzx
+karst,Karst data,01 one.PRJ,PROJECT010__001.DZT,105615360,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,02 two.PRJ,PROJECT020__001.DZT,120344576,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,03 three.PRJ,PROJECT030__001.DZT,156045312,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,04 four.PRJ,PROJECT040__001.DZT,156168192,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,05 five.PRJ,PROJECT050__001.DZT,150007808,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,05 five.PRJ,PROJECT050__002.DZT,7917568,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,06 six.PRJ,PROJECT060__001.DZT,216592384,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,07 seven.PRJ,PROJECT070__001.DZT,121155584,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""2.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,08 eight.PRJ,PROJECT100__001.DZT,95301632,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,09 nine.PRJ,PROJECT200__001.DZT,61100032,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,10 ten.PRJ,PROJECT300__001.DZT,95178752,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,11 eleven.PRJ,PROJECT400__001.DZT,43339776,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,12 twelve.PRJ,PROJECT500__001.DZT,61919232,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,13 thirteen.PRJ,PROJECT600__001.DZT,44306432,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,14 fourteen.PRJ,PROJECT700__001.DZT,40267776,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,1 one.PRJ,PROJECT800__001.DZT,78860288,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,2 two.PRJ,PROJECT900__001.DZT,115322880,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,3 three.PRJ,PROJECA000__001.DZT,122146816,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,4 four.PRJ,PROJECB000__001.DZT,80875520,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,5 five.PRJ,PROJECC000__001.DZT,151670784,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,6 six.PRJ,PROJECD000__001.DZT,66441216,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,Karst data,1 one.PRJ,PROJECF000__001.DZT,136237056,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,防空洞  dugout,PROJECG000.PRJ,PROJECG000__001.DZT,58265600,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,防空洞  dugout,PROJECH000.PRJ,PROJECH000__001.DZT,164335616,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+karst,防空洞  dugout,PROJECI000.PRJ,PROJECI000__001.DZT,59912192,unresolved,unresolved,,DZT record layout unresolved,"{""verticalUnit"": ""m"", ""horizontalUnit"": ""m"", ""dielectric"": ""14"", ""unitsPerScan"": ""0.025000"", ""scanPerMeters"": ""40.000000"", ""depthRange"": ""4.000000"", ""system"": ""SIR4K"", ""softwareVersion"": ""1.3.70"", ""originalDielectric"": ""14.000000""}"
+aquileia,1\250EW,,PROF1.CSV.SGY,792336,256,624,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF2.SGY,794864,256,626,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF3.SGY,806240,256,635,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF4.SGY,811296,256,639,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF5.SGY,778432,256,613,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF6.SGY,787280,256,620,471,reader validated by trace coherence,{}
+aquileia,1\250EW,,PROF7.SGY,768320,256,605,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF10.SGY,275360,256,215,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF11.SGY,286736,256,224,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF12.SGY,291792,256,228,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF13.SGY,295584,256,231,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF14.SGY,294320,256,230,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF15.SGY,291792,256,228,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF16.SGY,304432,256,238,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF17.SGY,276624,256,216,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF18.SGY,185616,256,144,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF19.SGY,202048,256,157,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF20.SGY,300640,256,235,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF21.SGY,295584,256,231,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF22.SGY,290528,256,227,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF23.SGY,290528,256,227,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF24.SGY,288000,256,225,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF25.SGY,267776,256,209,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF27.SGY,257664,256,201,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF28.SGY,274096,256,214,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF29.SGY,255136,256,199,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF30.SGY,190672,256,148,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF31.SGY,170448,256,132,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF32.SGY,126208,256,97,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF33.SGY,266512,256,208,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF34.SGY,284208,256,222,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF35.SGY,280416,256,219,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF36.SGY,284208,256,222,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF37.SGY,291792,256,228,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF38.SGY,296848,256,232,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF8.SGY,224800,256,175,471,reader validated by trace coherence,{}
+aquileia,1\250NS,,PROF9.SGY,252608,256,197,471,reader validated by trace coherence,{}
+aquileia,2,,PROF0.sgy,457376,256,359,471,reader validated by trace coherence,{}
+aquileia,2,,PROF1.sgy,458640,256,360,471,reader validated by trace coherence,{}
+aquileia,2,,PROF10.sgy,764528,256,602,471,reader validated by trace coherence,{}
+aquileia,2,,PROF11.sgy,759472,256,598,471,reader validated by trace coherence,{}
+aquileia,2,,PROF12.sgy,763264,256,601,471,reader validated by trace coherence,{}
+aquileia,2,,PROF13.sgy,763264,256,601,471,reader validated by trace coherence,{}
+aquileia,2,,PROF14.sgy,767056,256,604,471,reader validated by trace coherence,{}
+aquileia,2,,PROF15.sgy,772112,256,608,471,reader validated by trace coherence,{}
+aquileia,2,,PROF16.sgy,763264,256,601,471,reader validated by trace coherence,{}
+aquileia,2,,PROF17.sgy,762000,256,600,471,reader validated by trace coherence,{}
+aquileia,2,,PROF18.sgy,770848,256,607,471,reader validated by trace coherence,{}
+aquileia,2,,PROF19.sgy,763264,256,601,471,reader validated by trace coherence,{}
+aquileia,2,,PROF2.sgy,471280,256,370,471,reader validated by trace coherence,{}
+aquileia,2,,PROF20.sgy,775904,256,611,471,reader validated by trace coherence,{}
+aquileia,2,,PROF22.sgy,712704,256,561,471,reader validated by trace coherence,{}
+aquileia,2,,PROF23.sgy,716496,256,564,471,reader validated by trace coherence,{}
+aquileia,2,,PROF24.sgy,727872,256,573,471,reader validated by trace coherence,{}
+aquileia,2,,PROF25.sgy,725344,256,571,471,reader validated by trace coherence,{}
+aquileia,2,,PROF26.sgy,725344,256,571,471,reader validated by trace coherence,{}
+aquileia,2,,PROF27.sgy,725344,256,571,471,reader validated by trace coherence,{}
+aquileia,2,,PROF28.sgy,719024,256,566,471,reader validated by trace coherence,{}
+aquileia,2,,PROF29.sgy,720288,256,567,471,reader validated by trace coherence,{}
+aquileia,2,,PROF3.sgy,468752,256,368,471,reader validated by trace coherence,{}
+aquileia,2,,PROF30.sgy,721552,256,568,471,reader validated by trace coherence,{}
+aquileia,2,,PROF31.sgy,726608,256,572,471,reader validated by trace coherence,{}
+aquileia,2,,PROF32.sgy,722816,256,569,471,reader validated by trace coherence,{}
+aquileia,2,,PROF33.sgy,720288,256,567,471,reader validated by trace coherence,{}
+aquileia,2,,PROF34.sgy,715232,256,563,471,reader validated by trace coherence,{}
+aquileia,2,,PROF35.sgy,722816,256,569,471,reader validated by trace coherence,{}
+aquileia,2,,PROF36.sgy,719024,256,566,471,reader validated by trace coherence,{}
+aquileia,2,,PROF37.sgy,724080,256,570,471,reader validated by trace coherence,{}
+aquileia,2,,PROF38.sgy,724080,256,570,471,reader validated by trace coherence,{}
+aquileia,2,,PROF39.sgy,719024,256,566,471,reader validated by trace coherence,{}
+aquileia,2,,PROF4.sgy,477600,256,375,471,reader validated by trace coherence,{}
+aquileia,2,,PROF40.sgy,720288,256,567,471,reader validated by trace coherence,{}
+aquileia,2,,PROF41.sgy,713968,256,562,471,reader validated by trace coherence,{}
+aquileia,2,,PROF5.sgy,777168,256,612,471,reader validated by trace coherence,{}
+aquileia,2,,PROF6.sgy,772112,256,608,471,reader validated by trace coherence,{}
+aquileia,2,,PROF7.sgy,778432,256,613,471,reader validated by trace coherence,{}
+aquileia,2,,PROF8.sgy,774640,256,610,471,reader validated by trace coherence,{}
+aquileia,2,,PROF9.sgy,767056,256,604,471,reader validated by trace coherence,{}
+aquileia,3,,prof0.sgy,2568448,512,1121,398,reader validated by trace coherence,{}
+aquileia,3,,prof1.sgy,2506672,512,1094,398,reader validated by trace coherence,{}
+aquileia,3,,prof10.sgy,2557008,512,1116,398,reader validated by trace coherence,{}
+aquileia,3,,prof11.sgy,2513536,512,1097,398,reader validated by trace coherence,{}
+aquileia,3,,prof12.sgy,2561584,512,1118,398,reader validated by trace coherence,{}
+aquileia,3,,prof13.sgy,2527264,512,1103,398,reader validated by trace coherence,{}
+aquileia,3,,prof14.sgy,2557008,512,1116,398,reader validated by trace coherence,{}
+aquileia,3,,prof15.sgy,2540992,512,1109,398,reader validated by trace coherence,{}
+aquileia,3,,prof16.sgy,2550144,512,1113,398,reader validated by trace coherence,{}
+aquileia,3,,prof17.sgy,2543280,512,1110,398,reader validated by trace coherence,{}
+aquileia,3,,prof18.sgy,2586752,512,1129,398,reader validated by trace coherence,{}
+aquileia,3,,prof19.sgy,2547856,512,1112,398,reader validated by trace coherence,{}
+aquileia,3,,prof2.sgy,2522688,512,1101,398,reader validated by trace coherence,{}
+aquileia,3,,prof20.sgy,2586752,512,1129,398,reader validated by trace coherence,{}
+aquileia,3,,prof21.sgy,2570736,512,1122,398,reader validated by trace coherence,{}
+aquileia,3,,prof22.sgy,2561584,512,1118,398,reader validated by trace coherence,{}
+aquileia,3,,prof23.sgy,2524976,512,1102,398,reader validated by trace coherence,{}
+aquileia,3,,prof24.sgy,2584464,512,1128,398,reader validated by trace coherence,{}
+aquileia,3,,prof25.sgy,2554720,512,1115,398,reader validated by trace coherence,{}
+aquileia,3,,prof26.sgy,2559296,512,1117,398,reader validated by trace coherence,{}
+aquileia,3,,prof27.sgy,2534128,512,1106,398,reader validated by trace coherence,{}
+aquileia,3,,prof28.sgy,2499808,512,1091,398,reader validated by trace coherence,{}
+aquileia,3,,prof29.sgy,2483792,512,1084,398,reader validated by trace coherence,{}
+aquileia,3,,prof3.sgy,2513536,512,1097,398,reader validated by trace coherence,{}
+aquileia,3,,prof30.sgy,2495232,512,1089,398,reader validated by trace coherence,{}
+aquileia,3,,prof31.sgy,2492944,512,1088,398,reader validated by trace coherence,{}
+aquileia,3,,prof32.sgy,2497520,512,1090,398,reader validated by trace coherence,{}
+aquileia,3,,prof33.sgy,2495232,512,1089,398,reader validated by trace coherence,{}
+aquileia,3,,prof34.sgy,2483792,512,1084,398,reader validated by trace coherence,{}
+aquileia,3,,prof35.sgy,2508960,512,1095,398,reader validated by trace coherence,{}
+aquileia,3,,prof36.sgy,2513536,512,1097,398,reader validated by trace coherence,{}
+aquileia,3,,prof37.sgy,2497520,512,1090,398,reader validated by trace coherence,{}
+aquileia,3,,prof38.sgy,2520400,512,1100,398,reader validated by trace coherence,{}
+aquileia,3,,prof39.sgy,2502096,512,1092,398,reader validated by trace coherence,{}
+aquileia,3,,prof40.sgy,2518112,512,1099,398,reader validated by trace coherence,{}
+aquileia,3,,prof5.sgy,2632512,512,1149,398,reader validated by trace coherence,{}
+aquileia,3,,prof6.sgy,2515824,512,1098,398,reader validated by trace coherence,{}
+aquileia,3,,prof7.sgy,2522688,512,1101,398,reader validated by trace coherence,{}
+aquileia,3,,prof8.sgy,2529552,512,1104,398,reader validated by trace coherence,{}
+aquileia,3,,prof9.sgy,2520400,512,1100,398,reader validated by trace coherence,{}

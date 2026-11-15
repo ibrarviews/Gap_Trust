@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-09T03:19:40+00:00",
+  "audit": {
+    "aquileia_reader": {
+      "file": "PROF1.CSV.SGY",
+      "ns": 256,
+      "dt_raw": 471,
+      "format_code": 1,
+      "ntraces": 624,
+      "median_adjacent_correlation": 0.9948387681847014,
+      "min": 0.8496700881406832,
+      "max": 0.999796843618206,
+      "verdict": "validated"
+    },
+    "karst_reader": {
+      "files": 25,
+      "file_header_bytes": 1024,
+      "trace_header_bytes": 128,
+      "data_offset_word": 128,
+      "range_ns_from_float_at_13": 304.0,
+      "dyx": "dielectric 14, unitsPerScan 0.025 m, depthRange 4.0 m, system SIR4K",
+      "layout_tests_run": 36,
+      "only_exact_divisor_layout": {
+        "file_header": 1024,
+        "ns": 1024,
+        "bytes_per_sample": 2,
+        "median_adjacent_correlation": 0.143
+      },
+      "best_correlation_but_not_exact": {
+        "ns": 2048,
+        "bytes_per_sample": 2,
+        "value": 0.543
+      },
+      "verdict": "unresolved - no layout produced coherent adjacent traces"
+    }
+  },
+  "counts": {
+    "karst": 25,
+    "aquileia": 118
+  }
+}

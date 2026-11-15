@@ -1,0 +1,160 @@
+{
+  "utc": "2026-11-08T16:54:04+00:00",
+  "script": "scripts\\rlam_analysis.py",
+  "python": "3.13.9",
+  "executable": "C:\\Users\\IBRAR IQBAL\\gprmax4\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "runtime_s": 5430.1,
+  "inputs": [
+    {
+      "radius_m": 0.1,
+      "roof_m": 0.75,
+      "name": "d0p75_r0p10_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d0p75_r0p10_air.npz",
+      "exists": true,
+      "bytes": 2158477,
+      "sha256": "c347565b24db9d8f770195c15b9b33b102a253cdbd8e05f8552f417a4cc144a7"
+    },
+    {
+      "radius_m": 0.1,
+      "roof_m": 1.5,
+      "name": "d1p50_r0p10_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d1p50_r0p10_air.npz",
+      "exists": true,
+      "bytes": 2155857,
+      "sha256": "942a13b508948c76104df6da500b711053e2360eec63aabcd0a56191882bc3a4"
+    },
+    {
+      "radius_m": 0.1,
+      "roof_m": 2.5,
+      "name": "d2p50_r0p10_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d2p50_r0p10_air.npz",
+      "exists": true,
+      "bytes": 2155612,
+      "sha256": "20644554fd8cc56ec94fee553f40cc36b052c730bb6639a4f8855565043e859a"
+    },
+    {
+      "radius_m": 0.21,
+      "roof_m": 0.75,
+      "name": "d0p75_r0p21_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d0p75_r0p21_air.npz",
+      "exists": true,
+      "bytes": 2158488,
+      "sha256": "3bda5db84ee2eb22ec85d7f0cb337dd4e8b30f24ebf8e0195c53ca90a792db6b"
+    },
+    {
+      "radius_m": 0.21,
+      "roof_m": 1.5,
+      "name": "d1p50_r0p21_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d1p50_r0p21_air.npz",
+      "exists": true,
+      "bytes": 2157858,
+      "sha256": "17f87ab158f2db1d107b0d79d97594a0cd1135c251bdbcb3ded5827dfe2968dd"
+    },
+    {
+      "radius_m": 0.21,
+      "roof_m": 2.5,
+      "name": "d2p50_r0p21_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d2p50_r0p21_air.npz",
+      "exists": true,
+      "bytes": 2158928,
+      "sha256": "7dcadd1e116f1c1abc545f1a0616b954c06b3d9f951b1d9c7047a746791fc56a"
+    },
+    {
+      "radius_m": 0.28,
+      "roof_m": 0.75,
+      "name": "d0p75_r0p28_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d0p75_r0p28_air.npz",
+      "exists": true,
+      "bytes": 2157275,
+      "sha256": "1ff71ff953e2fa970adf04d1ab227455be46f97a020b725696ff45853ab8f0bd"
+    },
+    {
+      "radius_m": 0.28,
+      "roof_m": 1.5,
+      "name": "d1p50_r0p28_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d1p50_r0p28_air.npz",
+      "exists": true,
+      "bytes": 2158774,
+      "sha256": "8d42642214eb2100ae7d35cfd138d09639f32648b7f8c85fe70c5d4a54351227"
+    },
+    {
+      "radius_m": 0.28,
+      "roof_m": 2.5,
+      "name": "d2p50_r0p28_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d2p50_r0p28_air.npz",
+      "exists": true,
+      "bytes": 2158963,
+      "sha256": "a0ab48b73d6ce9d3f0b2be6514b50e549c1c2e368621edb844562cf34ee24c42"
+    },
+    {
+      "radius_m": 0.34,
+      "roof_m": 0.75,
+      "name": "d0p75_r0p34_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d0p75_r0p34_air.npz",
+      "exists": true,
+      "bytes": 2158667,
+      "sha256": "ebdecafbb5454392157b4eb394eadcba4888e68051c26d5854ed442be7553138"
+    },
+    {
+      "radius_m": 0.34,
+      "roof_m": 1.5,
+      "name": "d1p50_r0p34_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d1p50_r0p34_air.npz",
+      "exists": true,
+      "bytes": 2158157,
+      "sha256": "e3b222ae1afba6ed46584c10d159f8fe30ccfe412657ba94ffb5c40ce5860bd0"
+    },
+    {
+      "radius_m": 0.34,
+      "roof_m": 2.5,
+      "name": "d2p50_r0p34_air",
+      "path": "E:\\Gap trust\\Codes\\results\\sims\\250MHz\\d2p50_r0p34_air.npz",
+      "exists": true,
+      "bytes": 2158745,
+      "sha256": "41513e4549f2d92b252daa885814726d92c8020da2500e8d04b7212ad6ae7772"
+    }
+  ],
+  "outputs": {
+    "E:\\Gap trust\\Codes\\results\\data\\rlam_R.csv": {
+      "bytes": 90356,
+      "sha256": "7dc2df4e95a3b43d733f1f2527be3ac52b40d0e9cfe5451481cf6a67cf161765"
+    },
+    "E:\\Gap trust\\Codes\\results\\data\\rlam_summary.json": {
+      "bytes": 6194,
+      "sha256": "ee25320b59c20ad6a9af81db71b45440332739e2ef58fccb333b7b352b5ff3c1"
+    }
+  },
+  "parameters": {
+    "frequency": "250MHz",
+    "fill": "air",
+    "radii_m": [
+      0.1,
+      0.21,
+      0.28,
+      0.34
+    ],
+    "roof_depths_m": [
+      0.75,
+      1.5,
+      2.5
+    ],
+    "lambda_m": 0.424,
+    "v_mig": 0.106,
+    "R_fail": 0.5,
+    "max_gap_m": 2.4,
+    "methods": [
+      "linear",
+      "pocs"
+    ],
+    "min_uncensored": 5,
+    "pipeline": "pilot_analysis.analyse_case (unchanged)"
+  },
+  "decision": {
+    "H3a_met": true,
+    "H3b_met": false,
+    "outcome": "partly supported",
+    "rule": "H3a: CV(G50) <= 0.5 CV(W50) for linear AND POCS, at most 1 censored model per method; H3b: H3a criterion NOT met for at least one method"
+  }
+}

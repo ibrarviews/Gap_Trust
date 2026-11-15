@@ -1,0 +1,278 @@
+{
+  "test": "r/lambda on unseen models (ledger 14b-14d)",
+  "frequency": "250MHz",
+  "fill": "air",
+  "lambda_m": 0.424,
+  "lambda_definition": "lambda = V_MIG / f = 0.106 / 0.25 m = 0.424 m",
+  "v_mig_m_per_ns": 0.106,
+  "R_fail": 0.5,
+  "R_safe": null,
+  "max_gap_m": 2.4,
+  "radii_m": [
+    0.1,
+    0.21,
+    0.28,
+    0.34
+  ],
+  "roof_depths_m": [
+    0.75,
+    1.5,
+    2.5
+  ],
+  "groups_definition": {
+    "compact": [
+      0.1,
+      0.21
+    ],
+    "extended": [
+      0.28,
+      0.34
+    ]
+  },
+  "cases": {
+    "d0p75_r0p10_air": {
+      "radius_m": 0.1,
+      "roof_m": 0.75,
+      "r_over_lambda": 0.236,
+      "D_m": 0.8252,
+      "target_x_m": 2.21,
+      "target_z_m": 0.83,
+      "W50_m": {
+        "linear": 0.75,
+        "pocs": 0.75
+      },
+      "G50": {
+        "linear": 0.9089,
+        "pocs": 0.9089
+      }
+    },
+    "d1p50_r0p10_air": {
+      "radius_m": 0.1,
+      "roof_m": 1.5,
+      "r_over_lambda": 0.236,
+      "D_m": 1.1476,
+      "target_x_m": 2.12,
+      "target_z_m": 1.61,
+      "W50_m": {
+        "linear": 1.23,
+        "pocs": 1.53
+      },
+      "G50": {
+        "linear": 1.0718,
+        "pocs": 1.3332
+      }
+    },
+    "d2p50_r0p10_air": {
+      "radius_m": 0.1,
+      "roof_m": 2.5,
+      "r_over_lambda": 0.236,
+      "D_m": 1.4714,
+      "target_x_m": 1.91,
+      "target_z_m": 2.62,
+      "W50_m": {
+        "linear": 1.29,
+        "pocs": 1.47
+      },
+      "G50": {
+        "linear": 0.8767,
+        "pocs": 0.9991
+      }
+    },
+    "d0p75_r0p21_air": {
+      "radius_m": 0.21,
+      "roof_m": 0.75,
+      "r_over_lambda": 0.495,
+      "D_m": 0.8252,
+      "target_x_m": 2.18,
+      "target_z_m": 0.83,
+      "W50_m": {
+        "linear": 0.81,
+        "pocs": 0.99
+      },
+      "G50": {
+        "linear": 0.9816,
+        "pocs": 1.1997
+      }
+    },
+    "d1p50_r0p21_air": {
+      "radius_m": 0.21,
+      "roof_m": 1.5,
+      "r_over_lambda": 0.495,
+      "D_m": 1.1476,
+      "target_x_m": 2.12,
+      "target_z_m": 1.6,
+      "W50_m": {
+        "linear": 1.35,
+        "pocs": 1.41
+      },
+      "G50": {
+        "linear": 1.1764,
+        "pocs": 1.2287
+      }
+    },
+    "d2p50_r0p21_air": {
+      "radius_m": 0.21,
+      "roof_m": 2.5,
+      "r_over_lambda": 0.495,
+      "D_m": 1.4714,
+      "target_x_m": 2.12,
+      "target_z_m": 2.63,
+      "W50_m": {
+        "linear": 1.71,
+        "pocs": 1.77
+      },
+      "G50": {
+        "linear": 1.1622,
+        "pocs": 1.203
+      }
+    },
+    "d0p75_r0p28_air": {
+      "radius_m": 0.28,
+      "roof_m": 0.75,
+      "r_over_lambda": 0.66,
+      "D_m": 0.8252,
+      "target_x_m": 2.18,
+      "target_z_m": 0.83,
+      "W50_m": {
+        "linear": 0.75,
+        "pocs": 0.99
+      },
+      "G50": {
+        "linear": 0.9089,
+        "pocs": 1.1997
+      }
+    },
+    "d1p50_r0p28_air": {
+      "radius_m": 0.28,
+      "roof_m": 1.5,
+      "r_over_lambda": 0.66,
+      "D_m": 1.1476,
+      "target_x_m": 2.12,
+      "target_z_m": 1.6,
+      "W50_m": {
+        "linear": 1.35,
+        "pocs": 1.35
+      },
+      "G50": {
+        "linear": 1.1764,
+        "pocs": 1.1764
+      }
+    },
+    "d2p50_r0p28_air": {
+      "radius_m": 0.28,
+      "roof_m": 2.5,
+      "r_over_lambda": 0.66,
+      "D_m": 1.4714,
+      "target_x_m": 2.09,
+      "target_z_m": 2.62,
+      "W50_m": {
+        "linear": 1.65,
+        "pocs": 1.95
+      },
+      "G50": {
+        "linear": 1.1214,
+        "pocs": 1.3253
+      }
+    },
+    "d0p75_r0p34_air": {
+      "radius_m": 0.34,
+      "roof_m": 0.75,
+      "r_over_lambda": 0.802,
+      "D_m": 0.8252,
+      "target_x_m": 2.18,
+      "target_z_m": 0.84,
+      "W50_m": {
+        "linear": 0.93,
+        "pocs": 0.99
+      },
+      "G50": {
+        "linear": 1.127,
+        "pocs": 1.1997
+      }
+    },
+    "d1p50_r0p34_air": {
+      "radius_m": 0.34,
+      "roof_m": 1.5,
+      "r_over_lambda": 0.802,
+      "D_m": 1.1476,
+      "target_x_m": 2.12,
+      "target_z_m": 1.6,
+      "W50_m": {
+        "linear": 1.35,
+        "pocs": 1.29
+      },
+      "G50": {
+        "linear": 1.1764,
+        "pocs": 1.1241
+      }
+    },
+    "d2p50_r0p34_air": {
+      "radius_m": 0.34,
+      "roof_m": 2.5,
+      "r_over_lambda": 0.802,
+      "D_m": 1.4714,
+      "target_x_m": 2.09,
+      "target_z_m": 2.62,
+      "W50_m": {
+        "linear": 1.65,
+        "pocs": 1.95
+      },
+      "G50": {
+        "linear": 1.1214,
+        "pocs": 1.3253
+      }
+    }
+  },
+  "groups": {
+    "compact (r/lambda 0.236 and 0.495)": {
+      "linear": {
+        "n_models": 6,
+        "n_uncensored": 6,
+        "n_censored": 0,
+        "CV_W50": 0.2756507473421298,
+        "CV_G50": 0.11296386465764632,
+        "ratio_CV_G50_over_CV_W50": 0.4098079390201646,
+        "tested": true,
+        "criterion_met": true
+      },
+      "pocs": {
+        "n_models": 6,
+        "n_uncensored": 6,
+        "n_censored": 0,
+        "CV_W50": 0.2607865830008865,
+        "CV_G50": 0.12641889472873932,
+        "ratio_CV_G50_over_CV_W50": 0.4847599645427679,
+        "tested": true,
+        "criterion_met": true
+      }
+    },
+    "extended (r/lambda 0.660 and 0.802)": {
+      "linear": {
+        "n_models": 6,
+        "n_uncensored": 6,
+        "n_censored": 0,
+        "CV_W50": 0.2643581924326348,
+        "CV_G50": 0.08232327238255273,
+        "ratio_CV_G50_over_CV_W50": 0.3114080620124182,
+        "tested": true,
+        "criterion_met": true
+      },
+      "pocs": {
+        "n_models": 6,
+        "n_uncensored": 6,
+        "n_censored": 0,
+        "CV_W50": 0.2807201609576725,
+        "CV_G50": 0.06139520028059934,
+        "ratio_CV_G50_over_CV_W50": 0.21870605969713955,
+        "tested": true,
+        "criterion_met": true
+      }
+    }
+  },
+  "decision": {
+    "H3a_met": true,
+    "H3b_met": false,
+    "outcome": "partly supported",
+    "rule": "H3a: CV(G50) <= 0.5 CV(W50) for linear AND POCS, at most 1 censored model per method; H3b: H3a criterion NOT met for at least one method"
+  }
+}

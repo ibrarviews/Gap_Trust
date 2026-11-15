@@ -1,0 +1,97 @@
+{
+  "figure": "Fig03_failure_vs_width",
+  "role": "main Fig. 3; width-domain companion of Fig. 4",
+  "script": "scripts/fig03_failure_vs_width.py",
+  "input": "results\\data\\full_R_recovered.csv",
+  "input_sha256": "3e447ac3de170868194ad586206436871056b17ce4b7e5a026d788a1335d8546",
+  "input_rows": 2952,
+  "panels": [
+    {
+      "panel": "a",
+      "method": "linear",
+      "radius_m": 0.15
+    },
+    {
+      "panel": "b",
+      "method": "linear",
+      "radius_m": 0.4
+    },
+    {
+      "panel": "c",
+      "method": "pocs",
+      "radius_m": 0.15
+    },
+    {
+      "panel": "d",
+      "method": "pocs",
+      "radius_m": 0.4
+    }
+  ],
+  "curves_per_panel": 12,
+  "x_axis": "gap width W_m",
+  "y_axis": "recovery ratio R",
+  "xlim": [
+    0,
+    2.5
+  ],
+  "ylim": [
+    0,
+    1.4
+  ],
+  "W_range_in_data": [
+    0.03,
+    2.43
+  ],
+  "R_range_in_data": [
+    0.0404,
+    1.3803
+  ],
+  "W50_range": [
+    0.45,
+    2.01
+  ],
+  "n_W50_markers": 44,
+  "censored_curves": [
+    {
+      "panel": "b",
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "linear"
+    },
+    {
+      "panel": "b",
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "linear"
+    },
+    {
+      "panel": "d",
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "air",
+      "method": "pocs"
+    },
+    {
+      "panel": "d",
+      "freq": "400MHz",
+      "roof_m": 2.5,
+      "radius_m": 0.4,
+      "fill": "clay",
+      "method": "pocs"
+    }
+  ],
+  "R_fail": 0.5,
+  "gaptrust_version": "0.1.0",
+  "interpreter": "C:\\Users\\IBRAR IQBAL\\anaconda3\\envs\\gprmax\\python.exe",
+  "python": "3.10.20",
+  "run_utc": "2026-11-09T02:21:30+00:00",
+  "outputs": [
+    "Figures\\main\\Fig03_failure_vs_width.pdf",
+    "Figures\\main\\Fig03_failure_vs_width.tif"
+  ]
+}

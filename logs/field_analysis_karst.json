@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-09T04:16:05+00:00",
+  "edge_guard": false,
+  "constants": {
+    "V_MIG": 0.106,
+    "L_LINE": 8.0,
+    "DX_TARGET": 0.05,
+    "R_FAIL": 0.5,
+    "G_MAX": 1.7,
+    "T_WIN_NS": [
+      10.0,
+      60.0
+    ]
+  },
+  "lines": {
+    "great_l14": {
+      "target_x_m": 5.7,
+      "target_z_m": 0.54,
+      "reference_amp": 6274289.551041249,
+      "D_m": 0.5007,
+      "n_traces_resampled": 161,
+      "spacing_orig_m": 0.000816,
+      "n_gap_widths": 9,
+      "time_zero_ns": 9.861796292391691,
+      "D_sensitivity": {
+        "v0.080_f_peak": 0.4324,
+        "v0.122_f_peak": 0.5391,
+        "v0.106_f_400": 0.5511
+      },
+      "spearman_R_vs_gap": {
+        "zero": -0.983,
+        "linear": -0.683,
+        "pocs": 0.75
+      },
+      "W50_m": {
+        "zero": 0.65,
+        "linear": null,
+        "pocs": null
+      },
+      "G50": {
+        "zero": 1.2982,
+        "linear": null,
+        "pocs": null
+      }
+    },
+    "small_l6": {
+      "target_x_m": 2.9,
+      "target_z_m": 0.54,
+      "reference_amp": 7677649.106164796,
+      "D_m": 0.4381,
+      "n_traces_resampled": 161,
+      "spacing_orig_m": 0.000494,
+      "n_gap_widths": 7,
+      "time_zero_ns": 9.861796292391691,
+      "D_sensitivity": {
+        "v0.080_f_peak": 0.3788,
+        "v0.122_f_peak": 0.4714,
+        "v0.106_f_400": 0.5511
+      },
+      "spearman_R_vs_gap": {
+        "zero": -1.0,
+        "linear": -0.429,
+        "pocs": 1.0
+      },
+      "W50_m": {
+        "zero": 0.45,
+        "linear": null,
+        "pocs": null
+      },
+      "G50": {
+        "zero": 1.0271,
+        "linear": null,
+        "pocs": null
+      }
+    },
+    "dugout_l2": {
+      "target_x_m": 7.95,
+      "target_z_m": 3.17,
+      "reference_amp": 8555590.446384503,
+      "D_m": 1.2142,
+      "n_traces_resampled": 161,
+      "spacing_orig_m": 0.000564,
+      "n_gap_widths": 21,
+      "time_zero_ns": 9.861796292391691,
+      "D_sensitivity": {
+        "v0.080_f_peak": 1.0536,
+        "v0.122_f_peak": 1.3035,
+        "v0.106_f_400": 1.3029
+      },
+      "spearman_R_vs_gap": {
+        "zero": -0.973,
+        "linear": -0.091,
+        "pocs": 0.222
+      },
+      "W50_m": {
+        "zero": 0.15,
+        "linear": 0.15,
+        "pocs": 0.15
+      },
+      "G50": {
+        "zero": 0.1235,
+        "linear": 0.1235,
+        "pocs": 0.1235
+      }
+    }
+  },
+  "predictions": {
+    "P1_any_line_reaches_W50": true,
+    "P2_all_spearman_negative": false
+  }
+}

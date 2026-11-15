@@ -1,0 +1,86 @@
+{
+  "figure": "Fig04_failure_vs_gap_number",
+  "role": "main Fig. 4; gap-number reading of the failure points and the H1 verdict",
+  "script": "scripts/fig04_failure_vs_gap_number.py",
+  "input": "results\\data\\full_R_recovered.csv",
+  "input_sha256": "3e447ac3de170868194ad586206436871056b17ce4b7e5a026d788a1335d8546",
+  "summary_sha256": "a1cec19c81d467196c940578c23d05061cb344b8334dec81a26307b3232fad99",
+  "cross_check": "recomputed CVs match full_summary_recovered.json exactly",
+  "groups": [
+    {
+      "radius_m": 0.15,
+      "method": "zero",
+      "n_W50": 12,
+      "censored": 0,
+      "CV_W50": 0.338423140008383,
+      "CV_G50": 0.2121224126952788,
+      "ratio": 0.6267964202744066
+    },
+    {
+      "radius_m": 0.15,
+      "method": "linear",
+      "n_W50": 12,
+      "censored": 0,
+      "CV_W50": 0.3026943022683179,
+      "CV_G50": 0.21622643232592537,
+      "ratio": 0.7143392878741911
+    },
+    {
+      "radius_m": 0.15,
+      "method": "pocs",
+      "n_W50": 12,
+      "censored": 0,
+      "CV_W50": 0.3102867742745525,
+      "CV_G50": 0.26406974794672733,
+      "ratio": 0.8510506081482844
+    },
+    {
+      "radius_m": 0.4,
+      "method": "zero",
+      "n_W50": 10,
+      "censored": 2,
+      "CV_W50": 0.23350253807106597,
+      "CV_G50": 0.17122849397640924,
+      "ratio": 0.7333046372467962
+    },
+    {
+      "radius_m": 0.4,
+      "method": "linear",
+      "n_W50": 10,
+      "censored": 2,
+      "CV_W50": 0.19140042243142255,
+      "CV_G50": 0.11709594279387547,
+      "ratio": 0.6117851847261734
+    },
+    {
+      "radius_m": 0.4,
+      "method": "pocs",
+      "n_W50": 10,
+      "censored": 2,
+      "CV_W50": 0.2353959094647275,
+      "CV_G50": 0.16884760838163576,
+      "ratio": 0.7172920241714584
+    }
+  ],
+  "CV_G50_range": [
+    0.11709594279387547,
+    0.26406974794672733
+  ],
+  "CV_W50_range": [
+    0.19140042243142255,
+    0.338423140008383
+  ],
+  "ratio_range": [
+    0.6117851847261734,
+    0.8510506081482844
+  ],
+  "R_fail": 0.5,
+  "gaptrust_version": "0.1.0",
+  "interpreter": "C:\\Users\\IBRAR IQBAL\\anaconda3\\envs\\gprmax\\python.exe",
+  "python": "3.10.20",
+  "run_utc": "2026-11-09T02:46:05+00:00",
+  "outputs": [
+    "Figures\\main\\Fig04_failure_vs_gap_number.pdf",
+    "Figures\\main\\Fig04_failure_vs_gap_number.tif"
+  ]
+}

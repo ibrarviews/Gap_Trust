@@ -1,0 +1,58 @@
+{
+  "figure": "FigS6_rlam_scatter",
+  "script": "scripts/figS6_rlam_scatter.py",
+  "status": "exploratory; does not enter the decision rule of ledger 14d",
+  "inputs": {
+    "results\\data\\rlam_summary.json": "ee25320b59c20ad6a9af81db71b45440332739e2ef58fccb333b7b352b5ff3c1",
+    "results\\data\\failure_points_recovered.csv": "2b436784e43618db0e13e7eb493b24c782df9fd593a7e7a2fca09635b9dfd5ad"
+  },
+  "lambda_m": 0.424,
+  "R_fail": 0.5,
+  "points": {
+    "new_models": 24,
+    "reused_models": 12,
+    "new_radii_m": [
+      0.1,
+      0.21,
+      0.28,
+      0.34
+    ],
+    "reused_radii_m": [
+      0.15,
+      0.4
+    ],
+    "roof_depths_m": [
+      0.75,
+      1.5,
+      2.5
+    ]
+  },
+  "panels": [
+    {
+      "metric": "W50_m",
+      "method": "linear",
+      "panel": "a"
+    },
+    {
+      "metric": "W50_m",
+      "method": "pocs",
+      "panel": "b"
+    },
+    {
+      "metric": "G50",
+      "method": "linear",
+      "panel": "c"
+    },
+    {
+      "metric": "G50",
+      "method": "pocs",
+      "panel": "d"
+    }
+  ],
+  "gaptrust_version": "0.1.0",
+  "run_utc": "2026-11-08T17:01:42+00:00",
+  "outputs": [
+    "Figures\\supplementary\\FigS6_rlam_scatter.pdf",
+    "Figures\\supplementary\\FigS6_rlam_scatter.tif"
+  ]
+}
